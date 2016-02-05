@@ -3,15 +3,13 @@ using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class Buttons : MonoBehaviour {
-
-    public int curLevel;
-
+    
 	public void _BtnQuitGame()
     {
         Application.Quit();
     }
 
-    public void _BtnNextLevel()
+    public void _BtnNextLevel(int curLevel)
     {
         switch (curLevel)
         {
